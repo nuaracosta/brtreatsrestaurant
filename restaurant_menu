@@ -1,0 +1,49 @@
+<!-- Write code below 💖-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brazilian Treats Coffee Shop🇧🇷☕️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<!-- header element -->
+  <header id="header-img">
+    <h1>Brazilian Treats Coffee Shop🇧🇷☕️</h1>
+    <nav>
+      <a href="menu">Menu</a>
+      <a href="Order">Order</a>
+    </header>
+
+<!-- body -->
+  <body>
+    <h2>Menu</h2>
+    <h2>Place your order</h2>
+
+    <!-- An <img> image element.
+A <h3> element for the name of the menu item.
+A <p> paragraph element that briefly describes the item 
+  (1-2 sentences) and includes price information (italicized). -->
+
+    <article>
+      <h2>Savory</h2>
+      <h3>Pão de Queijo</h3><p>Soft cheese bread roll. 3 units. <i>$2.00</i></p>
+      <h3>Coxinha</h3><p>Small chicken croquette. <i>$2.50</i></p>
+      <h3>Ham & Cheese sandwich</h3><p>Pressed ham & cheese sandwich.<i>$5.00</i></p>
+
+      <h2>Sweets</h2>
+      <h3>Brigadeiro</h3>
+        <p>Small chocolate roll. <i>$1.00</i></p>
+      <h3>Carrot Cake</h3>
+        <p>Fluffy carrot cake with Brigadeiro topping<i>$3.00</i></p>
+
+      <h2>Beverages</h2>
+      <h3>Coffee</h3>
+        <p>Soft cheese bread roll. 3 units. <i>$2.00</i></p>
+      
+
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
