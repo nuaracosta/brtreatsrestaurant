@@ -7,11 +7,11 @@
   </head>
 <!-- header element -->
   <header id="header-img">
-    <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/header.png?raw=true" width="200">
+    <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/header.gif?raw=true" width="200">
   
     <nav style="display: flex; justify-content: center; margin-top: 20px;">
       <div style="display: flex; gap: 20px">
-      <a href="menu">Menu </a>
+      <a href="menu"> Menu </a>
       <a href="order">Order</a>
       </div>
     </nav>
@@ -21,65 +21,69 @@
 <!-- body -->
   <body>
 
-    <div style="display: flex; justify-content: center;">
+    <div id="menu" style="display: flex; justify-content: center;">
     <h2>Menu</h2></div>
     <article>
       <!-- menu stuff -->
 
       <div style="display: flex; justify-content: center;">
-      <h2>Savory</h2></div>
+      <h2><u>Savory</u></h2></div>
       
-      <div style="display: flex;">
+      <div style="display: flex; justify-content: center;">
       <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/pao-de-queijo.png?raw=true" width="50">
       <h3>Pão de Queijo</h3></div>
       <p>Soft cheese bread roll. 3 units. <i>$2.00</i></p>
 
-      <div style="display: flex;">
+      <div style="display: flex; justify-content: center;">
       <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/coxinha.png?raw=true" width="70">
       <h3>Coxinha</h3></div>
       <p>Small chicken croquette. <i>$2.50</i></p>
 
-      <div style="display: flex;">
-      <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/misto-quente.png?raw=true" width="50">
+      <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/misto-quente.png?raw=true" width="50">
       <h3>Ham & Cheese sandwich</h3></div>
       <p>Pressed ham & cheese sandwich.<i>$5.00</i></p>
+    </article>
 
-
+    <article>
       <div style="display: flex; justify-content: center;">
-      <h2>Sweets</h2></div>
+      <h2><u>Sweets</u></h2></div>
       <div style="display: flex justify-content center;">
         <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/brigadeiro.png?raw=true" width="50">
        <h3>Brigadeiro</h3></div>
          <p>Small chocolate roll. <i>$1.00</i></p>
       
-      <div style="display: flex;">
-      <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/carrot-cake.png?raw=true" width="50">
+      <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/carrot-cake.png?raw=true" width="50">
       <h3>Carrot Cake</h3></div>
         <p>Fluffy carrot cake with Brigadeiro topping<i>$3.00</i></p>
+    </article>
 
 
+    <article>
       <div style="display: flex; justify-content: center;">
-      <h2>Beverages</h2></div>
-      <div style="display: flex;">
-      <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/coffee.png?raw=true" width="50">
+      <h2><u>Beverages</u></h2></div>
+      <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/coffee.png?raw=true" width="50">
       <h3>Coffee</h3></div>
       <p>Soft cheese bread roll. 3 units. <i>$2.00</i></p>
 
-      <div style="display: flex;">
-      <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/latte.png?raw=true" width="50">
+      <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/latte.png?raw=true" width="50">
       <h3>Latte</h3></div>
       <p><i>$3.00</i></p>
 
-      <div style="display: flex;">
-      <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/water.png?raw=true" width="60">
+      <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/nuaracosta/brtreatsrestaurant/blob/main/images/water.png?raw=true" width="60">
       <h3>Water</h3></div>
       <p><i>$1.00</i></p>
+    </article>
   
 
   <form>
     <h2>Place your order!</h2>
 
-    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+    <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
     <label for="savory"> Savory:</label>
     <select id="savory" name="savory">
       <optgroup label="Savory">
@@ -94,7 +98,7 @@
     </div>
     <br></br>
 
-    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+    <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
     <label for="sweets"> Sweets:</label>
     <select id="sweets" name="sweets">
       <optgroup label="Sweets">
@@ -108,7 +112,7 @@
     <br></br>
 
 
-    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+    <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
     <label for="drinks"> Drinks:</label>
     <select id="drinks" name="drinks">
       <optgroup label="Beverages">
@@ -140,7 +144,7 @@
     <br></br>
 
     <button type="submit" style="padding: 10px 20px; background-color: #e7dfd8; color: black; border: none; border-radius: 3px; cursor: pointer;">
-  Submit Order
+    Submit Order
   </button>
   </form>
     
